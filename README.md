@@ -1,6 +1,8 @@
 # Quantum Flow Shop Scheduling
 [Job shop scheduling](https://en.wikipedia.org/wiki/Job-shop_scheduling) (JSS) is an optimization problem with the goal of scheduling, on a number of machines, jobs with diverse orderings of processing on the machines. The objective is to minimize the schedule length, also called "makespan," or completion time of the last task of all jobs. [Flow shop scheduling](https://en.wikipedia.org/wiki/Flow-shop_scheduling) (FSS) is a constrained case of JSS where every job uses every machine in the same order. The machines in FSS problems can often be seen as sequential operations to be executed on each job, as is the case in this particular demo.
 
+![screenshot](_static/screenshot.jpeg)
+
 This example demonstrates three ways of formulating and optimizing FSS:
 
 *    Formulating a nonlinear model and solving it on the Dynex Neuromorphic Quantum Platform
